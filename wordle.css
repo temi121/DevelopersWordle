@@ -1,0 +1,45 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+hr{
+    width: 500px;
+}
+#board{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.tile{
+    margin: 2.5px;
+    border: 2px dashed black;
+    width: 60px;
+    height: 60px;
+
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.correct{
+    background-color: green;
+    border-color: white;
+    color: white;
+}
+.present{
+    background-color: orange;
+    border-color: white;
+    color: white;
+}
+.absent{
+    background-color:grey ;
+    border-color:white;
+    color: white;
+}
